@@ -1,13 +1,15 @@
 body {
   font-family: "Montserrat", sans-serif;
   background-color: #ffffffaf;
-  padding-top: 120px;
+  /* padding-top: 120px; */
+  color: #595757;
 }
 
 .container {
   width: 1250px;
-  padding: 90px 60px;
+  /* padding: 90px 60px; */
   /* height: 1500px; */
+  background-image: url(/Images/simple-white-backgroundavif.avif);
 }
 
 .main-motivate {
@@ -15,7 +17,8 @@ body {
   background-color: fff;
   /* border: 1px solid black; */
   margin: 0 auto;
-  background-color: rgba(165, 165, 233, 0.523);
+  background-color: rgba(165, 165, 233, 0.275);
+
   padding: 40px 0;
 }
 .header {
@@ -25,26 +28,51 @@ body {
 }
 
 .user-title {
-    font-size: 52px;
+  font-size: 52px;
 }
 
 .user-vacancy {
-    font-size: 29px;
-    text-decoration-line: underline;
+  font-size: 29px;
+  text-decoration-line: underline;
+  color: rgb(19, 77, 164);
 }
 
 .user-info {
   /* border: 1px solid aqua; */
   display: flex;
   justify-content: center;
-  gap: 100px;
+  gap: 180px;
 }
 
 .user-img {
-  width: 220px;
+  width: 320px;
   border-radius: 50%;
   overflow: hidden;
 }
+
+.user-contacts {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: rgb(19, 77, 164);
+}
+
+.socials-icon {
+    margin-right: 15px;
+    text-decoration: none;
+    fill: currentColor;
+}
+
 .letter-title {
   text-align: center;
 }
@@ -55,12 +83,12 @@ body {
   align-items: center;
   /* border: 1px solid tomato; */
   font-size: 32px;
-  background-color: rgba(255, 228, 196, 0.627);
+  background-color: rgba(255, 228, 196, 0.412);
 }
 
 .best-regals {
-    font-family: Dancing Script;
-    margin-top: 60px;
-    text-align: right;
-    color: rgb(4, 4, 146);
+  font-family: Dancing Script;
+  margin-top: 60px;
+  text-align: right;
+  color: rgb(4, 4, 146);
 }
