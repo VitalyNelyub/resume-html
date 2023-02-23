@@ -45,8 +45,8 @@ body {
 }
 
 .user-img {
-  width: 320px;
-  border-radius: 50%;
+  width: 300px;
+  border-radius: 90px;
   overflow: hidden;
 }
 
@@ -80,7 +80,7 @@ body {
 }
 
 .letter {
-  padding: 70px 90px;
+  padding: 40px 60px;
   text-align: center;
   align-items: center;
   /* border: 1px solid tomato; */
