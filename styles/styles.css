@@ -1,6 +1,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   background-color: white;
+  margin: 0;
 }
 
 /* main styles */
@@ -15,7 +16,7 @@ body {
 .user-name {
   border-top: 4px solid #24504a;
   border-bottom: 4px solid #24504a;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   text-align: center;
   padding-bottom: 20px;
   /* background-color: #c5ede3; */
@@ -24,7 +25,7 @@ body {
 .main-content {
   background-color: white;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-  padding: 40px 40px;
+  padding: 25px 40px 0px 40px;
 }
 
 /* about styles */
@@ -39,7 +40,7 @@ body {
   font-size: 28px;
   line-height: 32px;
   color: #595959;
-  padding-bottom: 10px;
+  margin: 0;
 }
 
 .about-name {
@@ -58,11 +59,12 @@ body {
   line-height: 24px;
   color: #24504a;
   width: 100%;
+  margin: 0;
 }
 
 /* project styles */
 .projects {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   padding-right: 30px;
   width: 100%;
 }
@@ -178,6 +180,26 @@ body {
   color: #24504a;
 }
 
+.achievements-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fb6d3a;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  text-decoration: underline;
+}
+
+.achievements-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #24504a;
+  margin: 0;
+}
+
 /* Education styles */
 
 .education-name {
@@ -234,21 +256,21 @@ body {
 .tech-skills,
 .soft-skills {
   margin-left: 40px;
-  margin-bottom: 30px;
+  margin-bottom: 70px;
 }
-.contacts {
+/* .contacts {
   margin-bottom: 30px;
-}
-.tech-skills {
+} */
+/* .tech-skills {
   margin-bottom: 30px;
-}
+} */
 .tech-skills-list {
   color: #e4e5e7;
   padding: 0;
   margin-left: 18px;
 }
 .tech-skills-item {
-/* color: #c5ede3; */
+  /* color: #c5ede3; */
   color: #fb6d3a;
 }
 .tech-skills-text {
@@ -294,6 +316,10 @@ body {
   display: flex;
   gap: 10px;
   align-items: center;
+}
+
+.location {
+  color: #fb6d3a;
 }
 
 .contact-link:hover,

@@ -3,6 +3,7 @@ body {
   background-color: #ffffffaf;
   /* padding-top: 120px; */
   color: #595757;
+  margin: 0;
 }
 
 .container {
@@ -18,8 +19,7 @@ body {
   /* border: 1px solid black; */
   margin: 0 auto;
   background-color: rgba(165, 165, 233, 0.275);
-
-  padding: 40px 0;
+  padding: 58px 0;
 }
 .header {
   /* border: 1px solid tomato; */
@@ -89,12 +89,12 @@ body {
 }
 
 .letter-text {
-    font-size: 48px;
+    font-size: 46px;
 }
 
 .best-regals {
   font-family: Dancing Script;
-  margin-top: 60px;
+  margin-top: 30px;
   text-align: right;
   color: rgb(19, 77, 164);
 }
