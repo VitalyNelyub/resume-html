@@ -15,7 +15,7 @@ body {
 .user-name {
   border-top: 4px solid #24504a;
   border-bottom: 4px solid #24504a;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   text-align: center;
   padding-bottom: 20px;
 }
@@ -29,7 +29,7 @@ body {
 /* about styles */
 
 .about {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .about-position {
@@ -70,7 +70,9 @@ body {
   line-height: 27px;
   color: #24504a;
   margin-bottom: 10px;
+  margin-top: 10px;
   border-bottom: 1px solid #24504a;
+  display: block;
 }
 
 .prjects-list {
@@ -236,7 +238,7 @@ body {
 .tech-skills,
 .soft-skills {
   margin-left: 40px;
-  margin-bottom: 70px;
+  margin-bottom: 60px;
   border-bottom: 1px solid #c5ede3;
 }
 
