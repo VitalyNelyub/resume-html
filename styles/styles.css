@@ -185,6 +185,15 @@ body {
 
 /* Education styles */
 
+.education-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.education-part {
+  width: 300px;
+}
+
 .education-name {
   font-weight: 700;
   font-size: 22px;
