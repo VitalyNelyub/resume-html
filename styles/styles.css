@@ -8,7 +8,7 @@ body {
 .main {
   display: flex;
   flex-direction: row-reverse;
-  width: 1200px;
+  width: 1280px;
   margin: 0% auto;
 }
 
@@ -17,7 +17,7 @@ body {
   border-bottom: 4px solid #24504a;
   margin-bottom: 5px;
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 5px;
 }
 
 .main-content {
@@ -37,7 +37,8 @@ body {
   font-size: 22px;
   line-height: 32px;
   color: #595959;
-  margin: 0;
+  margin-bottom: 5px;
+  margin-top: 0;
 }
 
 .about-name {
@@ -46,11 +47,11 @@ body {
   line-height: 55px;
   color: #24504a;
   margin-bottom: 0px;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 .about-description {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 32px;
   color: #24504a;
   width: 100%;
@@ -187,11 +188,11 @@ body {
 
 .education-list {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .education-part {
-  width: 300px;
+  width: 400px;
 }
 
 .education-name {
